@@ -772,6 +772,7 @@ a.adress-link {
 }
 .modal-wrap {
   position: relative;
+  display: block;
 }
 
 .form-label {
