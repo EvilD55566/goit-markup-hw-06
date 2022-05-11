@@ -457,15 +457,16 @@ a.adress-link {
 .adress-tel-link:focus {
   color: var(--primary-white-color);
 }
-/* .footerf{
-  display: flex;
-} */
+.footerf{
+  flex-grow: 1;
+}
 /* .footer-soc{
   display: flex;
 } */
 .footer .container {
   display: flex;
   align-items: baseline;
+ 
 }
 
 .join {
@@ -770,6 +771,12 @@ a.adress-link {
   display: block;
   margin-bottom: 10px;
 }
+.form-field:nth-child(4){
+  margin-bottom: 20px;
+}
+.form-field:nth-child(5) {
+  margin-bottom: 30px;
+}
 .modal-wrap {
   position: relative;
   display: block;
@@ -785,6 +792,7 @@ a.adress-link {
   margin-bottom: 4px;
 }
 .user-comments {
+  display: block;
   width: 100%;
   height: 120px;
   padding: 12px 16px;
@@ -846,7 +854,8 @@ a.adress-link {
   color: #757575;
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
+  justify-content: center;
+ 
 }
 .input-check:checked + .check-text > .check-visible {
   background-color: #2196f3;
